@@ -1,7 +1,7 @@
 #----root/variables.tf----
 
-variable "aws_region" {
-  type = list(string)
+variable "aws-region" {
   description = "stored aws region data"
+  type = list(string)
   default = ["us-east-1a"]
 }
